@@ -1,0 +1,32 @@
+name: flutter_class_project_1
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Doto
+      fonts:
+        - asset: assets/fonts/Doto-Regular.ttf
+        - asset: assets/fonts/Doto-Bold.ttf
+        - asset: assets/fonts/Doto-Thin.ttf
+        - asset: assets/fonts/Doto-Italic.ttf
+        - asset: assets/fonts/Doto-ExtraBold.ttf
+        - asset: assets/fonts/Doto-Light.ttf
+  assets:
+    - assets/images/image1.jpg
+    - assets/images/image2.jpg
+    - assets/images/image3.jpg
